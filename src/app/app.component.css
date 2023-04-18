@@ -1,0 +1,31 @@
+
+  .toolbar1 {
+    background-color: #333;
+    color: #fff;
+    z-index:10;
+  }
+  
+  .example-container {
+    background-color:rgb(17, 15, 15);
+    width: 35px;
+    height: 600px;
+    color:white;
+    transition:ease-out 0.4s;
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .listt{
+    background-color:#fff;
+    color:black;
+    width:200px;
+  }
+  .example-container:hover{
+    width:100px;
+    transition: ease-in-out 0.4s;
+  }
