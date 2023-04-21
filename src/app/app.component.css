@@ -21,6 +21,7 @@
   }
   .example-container:hover .icon1{
     transition:ease-in-out 0.6s;
+    margin-left:20px;
   }
 
 
@@ -35,3 +36,9 @@
     flex: 1;
     overflow: auto;
   }
+.button5{
+  background-color: #333;
+}
+.example-sidenav{
+  width:100px;
+}
