@@ -9,10 +9,14 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { LoginComponent } from './components/login/login.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
